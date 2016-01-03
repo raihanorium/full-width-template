@@ -1,0 +1,24 @@
+body{
+	font-family: Arial;
+	font-size: 12px;
+}
+
+
+nav{background-color: #97896C !important;}
+nav a{color: #fff !important;}
+.navbar-nav>li.active>a{background-color: #97896C !important;}
+.navbar-nav>li.active{border-bottom: 1px solid #fff;}
+.navbar-nav>li>a{padding-bottom: 10px;}
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover,
+.dropdown-menu{background-color: #97896C !important;}
+
+nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+    -webkit-transition: all 400ms ease-in;
+    transition: all 200ms ease-in;
+}
