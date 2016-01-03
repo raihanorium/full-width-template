@@ -1,0 +1,30 @@
+{
+  "name": "full-width-template",
+  "description": "Full width responsive template\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D HTML template\u001b[2~",
+  "main": "index.html",
+  "authors": [
+    "raihan.dk@gmail.com"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "full",
+    "width",
+    "responsive",
+    "template",
+    "bootstrap",
+    "html"
+  ],
+  "homepage": "https://github.com/raihanorium/full-width-template",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6"
+  }
+}
