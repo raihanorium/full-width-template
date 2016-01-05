@@ -1,6 +1,8 @@
 body{
 	font-family: Arial;
 	font-size: 12px;
+	background-color: #202020;
+	color: #fff;
 }
 
 
@@ -32,3 +34,45 @@ nav.affix {
 
 #tagline{background-color: #000; color: #ddd; text-align: center; font-size: 1.2em; padding: 10px;}
 #tagline a{color: #ddd; text-decoration: underline;}
+#video-bottom{position: relative; bottom: 100px; background-image: url(/img/video_bottom.png); min-height: 100px;}
+
+#home-section-1 h2{color: #97896C;}
+#home-section-1 img{display: inline; max-height: 300px; margin-bottom: 30px;}
+
+#home-section-2{min-height: 300px; background-image: url(/img/field2.jpg);}
+#home-section-2 h2{color: #97896C;}
+#home-section-2 div.container{padding-top: 100px; padding-bottom: 100px;}
+#home-section-2 img{height: 350px; margin: 0 auto;}
+
+#home-section-3{min-height: 300px;}
+#home-section-3 h2{color: #97896C;}
+#home-section-3 div.container{padding-top: 100px; padding-bottom: 100px;}
+#home-section-3 img{height: 350px; margin: 0 auto;}
+
+#home-section-4{min-height: 300px; background-color: #fff; color: #000;}
+#home-section-4 h2, #home-section-4 h4{color: #97896C;}
+#home-section-4 div.container{padding-top: 100px; padding-bottom: 100px;}
+#home-section-4 img{max-height: 250px; margin: 0 auto;}
+#home-section-4 ul{text-align: left;}
+
+#home-footer{padding-top: 50px;}
+#home-footer h4{color: #97896C; text-transform: uppercase;}
+#home-footer #social i.fa{font-size: 2em;}
+
+.footer-list-linked{list-style-type: none; padding-left: 0;}
+.footer-list-linked li{padding: 3px;}
+.footer-list-linked a{color: #fff; margin-left: 10px;}
+
+.separator{
+	height: 1px; width: 70%; margin: 0 auto; margin-top: 50px; margin-bottom: 20px;
+	background: rgba(32,32,32,1);
+background: -moz-linear-gradient(left, rgba(32,32,32,1) 0%, rgba(182,141,76,1) 51%, rgba(32,32,32,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(32,32,32,1)), color-stop(51%, rgba(182,141,76,1)), color-stop(100%, rgba(32,32,32,1)));
+background: -webkit-linear-gradient(left, rgba(32,32,32,1) 0%, rgba(182,141,76,1) 51%, rgba(32,32,32,1) 100%);
+background: -o-linear-gradient(left, rgba(32,32,32,1) 0%, rgba(182,141,76,1) 51%, rgba(32,32,32,1) 100%);
+background: -ms-linear-gradient(left, rgba(32,32,32,1) 0%, rgba(182,141,76,1) 51%, rgba(32,32,32,1) 100%);
+background: linear-gradient(to right, rgba(32,32,32,1) 0%, rgba(182,141,76,1) 51%, rgba(32,32,32,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202020', endColorstr='#202020', GradientType=1 );
+}
+
+#copyright{margin-bottom: 50px;}
